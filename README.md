@@ -7,7 +7,13 @@ This is a simple gamification gem. It has a long way to go. It assumes that you 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'top_score'
+gem 'top_score' 
+```
+
+(actually in this case we need a path bc this isn't on ruby gems)
+
+```ruby
+gem 'top_score', :git => 'git://github.com/toddmetheny/top_score.git'
 ```
 
 And then execute:
