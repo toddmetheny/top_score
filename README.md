@@ -22,7 +22,7 @@ Or install it yourself as:
 
 This gem assumes the pre-existence of a Users model. For simplicity, we're just going to add a score column to Users.
 
-rails g migration AddScoreToUser score:integer
+    rails g migration AddScoreToUser score:integer
 
 After you run the migration, but before you migrate, open it up and add 
 
