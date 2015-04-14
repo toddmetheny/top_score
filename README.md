@@ -10,7 +10,7 @@ Add this line to your application's Gemfile:
 gem 'top_score' 
 ```
 
-(actually in this case we need a path bc this isn't on ruby gems)
+(if you need to install by path:)
 
 ```ruby
 gem 'top_score', :git => 'git://github.com/toddmetheny/top_score.git'
